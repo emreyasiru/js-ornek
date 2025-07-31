@@ -1,48 +1,54 @@
-<<<<<<< HEAD
-.slider-container{
+.slider-container {
     width: 100%;
     height: 750px;
     margin: auto;
     position: relative;
 }
+
 .slider-yazi {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  
-  color: #fff;
-  padding: 15px 30px;
-  font-size: 28px;
-  border-radius: 10px;
-  font-weight: bold;
-  text-align: center;
-  max-width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 28px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 90%;
 }
-.slide{
-    position:absolute;
+
+.slide {
+    position: absolute;
     width: 100%;
     height: 100%;
     opacity: 0;
     transition: opacity 0.5s ease;
 }
+
 .slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-.aktif{
+
+.aktif {
     opacity: 1;
     z-index: 1;
 }
-.kontrol{
+
+.kontrol {
     text-align: center;
     margin-top: 10px;
 }
-.kontrol button{
+
+.kontrol button {
     padding: 5px 15px;
 }
-.slider-containercard{
+
+.slider-containercard {
     width: 960px;
     overflow: hidden;
     margin: 20px auto;
@@ -50,147 +56,55 @@
 
 
 }
-.card-track{
+
+.card-track {
     display: flex;
     transition: transform 0.5s ease;
 
 }
+
 .card {
-  position: relative;
-  flex: 0 0 320px;
-  height: 200px;
-  margin-right: 10px;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    flex: 0 0 320px;
+    height: 200px;
+    margin-right: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.kontrol{
+.kontrol {
     text-align: center;
     font-size: 16px;
 }
-.kontrol button{
+
+.kontrol button {
     padding: 5px 15px;
     font-size: 20px;
 }
+
 .card img {
- width: 100%;
-  height: 100%;
-  object-fit: contain; 
-  background-color:white;
-  display: block;
-  border-radius: 10px;
-}
-.card-baslik {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); 
-  margin: 0;
-  pointer-events: none;
-}
-#islemMikari{
-    max-width: 200px;
-=======
-.slider-container{
-    width: 100%;
-    height: 750px;
-    margin: auto;
-    position: relative;
-}
-.slider-yazi {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  
-  color: #fff;
-  padding: 15px 30px;
-  font-size: 28px;
-  border-radius: 10px;
-  font-weight: bold;
-  text-align: center;
-  max-width: 90%;
-}
-.slide{
-    position:absolute;
     width: 100%;
     height: 100%;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-.slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.aktif{
-    opacity: 1;
-    z-index: 1;
-}
-.kontrol{
-    text-align: center;
-    margin-top: 10px;
-}
-.kontrol button{
-    padding: 5px 15px;
-}
-.slider-containercard{
-    width: 960px;
-    overflow: hidden;
-    margin: 20px auto;
-    border: 1px solid #ccc;
-
-
-}
-.card-track{
-    display: flex;
-    transition: transform 0.5s ease;
-
-}
-.card {
-  position: relative;
-  flex: 0 0 320px;
-  height: 200px;
-  margin-right: 10px;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+    background-color: white;
+    display: block;
+    border-radius: 10px;
 }
 
-.kontrol{
-    text-align: center;
-    font-size: 16px;
-}
-.kontrol button{
-    padding: 5px 15px;
-    font-size: 20px;
-}
-.card img {
- width: 100%;
-  height: 100%;
-  object-fit: contain; 
-  background-color:white;
-  display: block;
-  border-radius: 10px;
-}
 .card-baslik {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); 
-  margin: 0;
-  pointer-events: none;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    margin: 0;
+    pointer-events: none;
 }
-#islemMikari{
+
+#islemMikari {
     max-width: 200px;
->>>>>>> cc9715b15b683bd0969cb2584857983acddffc91
 }
